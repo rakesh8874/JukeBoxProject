@@ -1,2 +1,7 @@
-package com.audioplayer;public class InputExceptions {
-}
+package com.customexceptions;
+
+ public class InputExceptions extends  Exception{
+      public InputExceptions(){
+          super.toString();
+      }
+ }
